@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a003d788997d940bbe3907c51fdb9b, type: 3}
+  m_Name: Gameplay
+  m_EditorClassIdentifier: 
+  _playerSettings:
+    AttackAnimationTriggerName: Attack
+    DeadAnimationTriggerName: Die
+    ReviveAnimationTriggerName: Live
+  _healthBarSettings:
+    TrackingHeight: 3
+  _healthNumberSettings:
+    PositiveColor: {r: 0.33333325, g: 1, b: 0, a: 1}
+    NegativeColor: {r: 1, g: 0, b: 0, a: 1}
+    MoveDistance: 50
+    MoveDuration: 0.5
+    PunchDuration: 0.25

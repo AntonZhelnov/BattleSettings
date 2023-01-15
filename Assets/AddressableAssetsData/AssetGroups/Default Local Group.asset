@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 01b902b994b815f48911ba6d85cfbc66
+  m_SerializeEntries:
+  - m_GUID: 2b7f14468af964542a746324d9c18ace
+    m_Address: LoadingScreen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+  - m_GUID: e52ea25af699fd445b7046374f81a5b9
+    m_Address: HealthPotion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: 4a39cb4b272639541b7bd5ac0649acf7
+    m_Address: Meat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: b97c91e8b348f3f4ebdc11f5c82182cd
+    m_Address: Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: 2f1eaeeaad36ee5469eff7ff158f37ba
+    m_Address: Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: ae496f5dad56ea645b72d374a0376368
+    m_Address: Book
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: 5d9ba4e7d0964044ea54abe409d81dfd
+    m_Address: Apple
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: 172774604c1bee84185a69041576525b
+    m_Address: Axe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprites
+  - m_GUID: 68f4fbad8adfca84a96602e5e6f2949d
+    m_Address: Settings
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 77a89dfebc586d241992ad32394d6699
+    m_Address: StatPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+  - m_GUID: 105ad8b541670ec498cf600535ee8620
+    m_Address: BuffPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+  - m_GUID: 62c4624c182bca94e96863e926c37a5b
+    m_Address: HealthBar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+  - m_GUID: c001698faaf79024f8058ae6591c5d2d
+    m_Address: HealthNumber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefabs
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bc5bf8e3696885e4c869d18aefa23b94, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1b3e91dcd79182a4aab0e677568a3e2d, type: 2}
+    - {fileID: 11400000, guid: 065f5b53e7b4370418fc9394367242ff, type: 2}

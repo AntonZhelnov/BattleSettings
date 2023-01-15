@@ -1,0 +1,107 @@
+{
+	"cameraSettings": {
+		"roundDuration": 15,
+		"roundRadius": 4,
+		"height": 4,
+		"lookAtHeight": 1.5,
+		"roamingRadius": 0.75,
+		"roamingDuration": 5,
+		"fovMin": 35,
+		"fovMax": 75,
+		"fovDelay": 4,
+		"fovDuration": 0.3
+	},
+	"gameSettings": {
+		"buffCountMin": 0,
+		"buffCountMax": 5,
+		"allowDuplicateBuffs": false
+	},
+	"stats": [
+		{
+			"id": 0,
+			"title": "Жизнь",
+			"value": 100,
+			"icon": "HealthPotion"
+		},
+		{
+			"id": 1,
+			"title": "Броня",
+			"value": 25,
+			"icon": "Armor"
+		},
+		{
+			"id": 2,
+			"title": "Урон",
+			"value": 25,
+			"icon": "Axe"
+		},
+		{
+			"id": 3,
+			"title": "Вампиризм",
+			"value": 0,
+			"icon": "Meat"
+		}
+	],
+	"buffs": [
+		{
+			"id": 0,
+			"title": "Вампир",
+			"icon": "Book",
+			"stats": [
+				{
+					"statId": 0,
+					"value": 100
+				},
+				{
+					"statId": 3,
+					"value": 25
+				}
+			]
+		},
+		{
+			"id": 1,
+			"title": "Щит",
+			"icon": "Shield",
+			"stats": [
+				{
+					"statId": 1,
+					"value": 25
+				},
+				{
+					"statId": 2,
+					"value": -5
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Супер сила",
+			"icon": "Apple",
+			"stats": [
+				{
+					"statId": 2,
+					"value": 35
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Титан",
+			"icon": "HealthPotion",
+			"stats": [
+				{
+					"statId": 0,
+					"value": 200
+				},
+				{
+					"statId": 1,
+					"value": 25
+				},
+				{
+					"statId": 2,
+					"value": 50
+				}
+			]
+		}
+	]
+}
